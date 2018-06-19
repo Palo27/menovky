@@ -1,0 +1,73 @@
+
+%%%%%%%%%% Normally no changes required below here %%%%%%%%%%
+\documentclass[a4paper,12pt]{article}
+%\documentclass[12pt]{article}
+
+\usepackage{miama}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{tgpagella} % Default fonts
+%\usepackage{calligra} % Font for the addresses
+%\usepackage{pbsi} % BrushScriptX-Italic
+%\usepackage{miama}
+%\usepackage[default]{comfortaa}
+\usepackage{LobsterTwo}
+%\usepackage{oesch}
+%\usepackage{labels}
+\usepackage[newdimens]{labels}
+\usepackage{xpatch}
+\makeatletter
+\xpatchcmd{\start@@label}{\raggedright}{\centering}{}{}
+\def\start@newline{\par}%
+\makeatother
+
+\LabelCols=4
+%\LabelRows=22
+\LeftPageMargin=1.5mm
+\RightPageMargin=1.5mm
+\TopPageMargin=0mm
+\BottomPageMargin=0mm
+\InterLabelRow=0mm
+
+\LabelRows=18
+\TopLabelBorder=0mm
+\BottomLabelBorder=0mm
+% 13 mm label hight
+
+\begin{document}
+	
+	{
+	  \LobsterTwo  % BrushScriptX-Italic
+	  \Huge
+    %\labelfile{names_lobster.dat}
+		\labelfile{names_lobster_fake_hacek.dat}
+		%Mat'a
+		%Mat'\kern-0.15em a
+	  \normalfont \normalsize Lobster Two
+	}
+	
+	%{
+	%\newpage
+	%{
+	  %\fmmfamily
+	  %\Huge
+    %\labelfile{names.dat}
+	  %\normalfont \normalsize Miama Nueva
+	%}
+	
+	%{
+	  %\bsifamily % BrushScriptX-Italic
+	  %\Huge
+    %\labelfile{names.dat}
+	  %\normalfont \normalsize BrushScriptX-Italic
+	%}
+	
+	%\newpage
+	%{
+	  %\normalfont  % BrushScriptX-Italic
+	  %\Huge
+    %\labelfile{names.dat}
+	  %\normalfont \normalsize Comfortaa
+	%}	
+	
+\end{document}
