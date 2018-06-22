@@ -1,6 +1,6 @@
 
 %%%%%%%%%% Normally no changes required below here %%%%%%%%%%
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,22pt]{article}
 %\documentclass[12pt]{article}
 
 \usepackage{miama}
@@ -16,12 +16,13 @@
 %\usepackage{labels}
 \usepackage[newdimens]{labels}
 \usepackage{xpatch}
+\usepackage{fix-cm}
 \makeatletter
 \xpatchcmd{\start@@label}{\raggedright}{\centering}{}{}
 \def\start@newline{\par}%
 \makeatother
 
-\LabelCols=4
+\LabelCols=3
 %\LabelRows=22
 \LeftPageMargin=1.5mm
 \RightPageMargin=1.5mm
@@ -38,11 +39,12 @@
 	
 	{
 	  \LobsterTwo  % BrushScriptX-Italic
-	  \Huge
+	  %\Huge
+		\fontsize{40}{45}\selectfont
     %\labelfile{names_lobster.dat}
 		\labelfile{names_lobster_fake_hacek.dat}
 		%Mat'a
-		%Mat'\kern-0.15em a
+		%Mat'\kern-0.15em a   
 	  \normalfont \normalsize Lobster Two
 	}
 	
