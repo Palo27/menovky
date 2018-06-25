@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6700 64-bit) (preloaded format=pdflatex 2018.6.18)  21 JUN 2018 17:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6700 64-bit) (preloaded format=pdflatex 2018.6.18)  25 JUN 2018 09:11
 entering extended mode
 **./menovky.tex
 (menovky.tex
@@ -935,22 +935,30 @@ Package labels Warning: Label too tall by 6mm (18.05298pt) on input line 126.
 
 Package labels Warning: Label too tall by 6mm (18.05298pt) on input line 128.
 
-+)
++
+
+Package labels Warning: Label too tall by 6mm (18.05298pt) on input line 130.
+
++
+
+Package labels Warning: Label too tall by 6mm (18.05298pt) on input line 132.
+
++ |)
 
 Package labels Warning: Label too tall by 6mm (18.05298pt) on input line 45.
 
 + [2] (menovky.aux) ) 
 Here is how much of TeX's memory you used:
- 11461 strings out of 492973
- 216249 string characters out of 3135935
+ 11459 strings out of 492973
+ 216204 string characters out of 3135935
  244117 words of memory out of 3000000
  15294 multiletter control sequences out of 15000+200000
- 554823 words of font info for 41 fonts, out of 3000000 for 9000
+ 554340 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,63p,838b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Palo/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/lobster2/lbst2_2vl4dw.enc}<C:/Users/Palo/
 AppData/Roaming/MiKTeX/2.9/fonts/type1/impallari/lobster2/LobsterTwo.pfb>
-Output written on menovky.pdf (2 pages, 23504 bytes).
+Output written on menovky.pdf (2 pages, 22668 bytes).
 PDF statistics:
  14 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
